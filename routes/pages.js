@@ -23,9 +23,9 @@ mongoUtil.connectToServer( function( err, client ) {
    var cl4=db.collection('Orders');
 
 router.get('/', function(req, res, next) {
-  console.log("///",req.user);
+  // console.log("///",req.user);
   if(req.user && req.user.type=="Restaurant"){
-    console.log("userloginnm"+ req.user._id);
+    // console.log("userloginnm"+ req.user._id);
    
   res.redirect('addmenu');
 
@@ -127,6 +127,9 @@ router.route('/displayitems')
      });
 
      });
+      }
+      else if(req.user && req.user.type == "Restaurant"){
+              res.redirect('/addmenu');
       }
       else{
              cl3.find().toArray(function(err, result) {

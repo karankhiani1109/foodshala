@@ -19,7 +19,7 @@ router.route('/login')
   .post(passport.authenticate('local', {
     failureRedirect: '/login'
   }), function (req, res,next) {
-    console.log(req.body);
+    // console.log(req.body);
     // return next()
     res.redirect('/');
   
@@ -37,7 +37,7 @@ router.route('/register')
     req.checkBody('password1', 'Empty Password').notEmpty();
     req.checkBody('password1', 'Password do not match').equals(req.body.confirmPassword1).notEmpty();
 
-    console.log(req.body);
+    // console.log(req.body);
     var errors = req.validationErrors();
     
     if (errors) {
@@ -69,7 +69,7 @@ router.route('/register')
                   console.log("User Registered")
                 }
             });
-        res.render('login',{alertdata : "Customer Registered Succesfully"});
+        res.render('register',{alertdata : "Customer Registered Succesfully"});
         }
         });
   
@@ -84,7 +84,7 @@ router.route('/register')
     req.checkBody('password', 'Empty Password').notEmpty();
     req.checkBody('password', 'Password do not match').equals(req.body.confirmPassword).notEmpty();
 
-    console.log(req.body);
+    // console.log(req.body);
     var errors = req.validationErrors();
     
     if (errors) {
@@ -117,7 +117,7 @@ router.route('/register')
                   console.log("Restaurant Registered")
                 }
             });
-        res.render('login',{alertdata : "Restaurant Registered Succesfully"});
+        res.render('register',{alertdata : "Restaurant Registered Succesfully"});
         }
         });
   
@@ -138,7 +138,7 @@ router.route('/register')
 
 router.get('/logout', function (req, res) {
   req.logout();
-  res.render('/login',{alertdata : "Successfully logged out"});
+  res.redirect('login');
 });
 
 // router.get('/auth/facebook', passport.authenticate('facebook', {scope: 'email'}));

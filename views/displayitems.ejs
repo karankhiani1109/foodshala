@@ -15,7 +15,7 @@
 <nav class="navbar navbar-default" style="height:100px;">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#"><img src="/foodshala.png"></a>
+      <a class="navbar-brand" href="/displayitems"><img src="/foodshala.png"></a>
      
   </div>
   <% if( typeof user == "undefined" ) { %>
@@ -48,7 +48,12 @@
 
 <div class="box" id="box">
   <h2>Menu Page</h2>
- 
+  <% if( typeof user == "undefined" ) { %>
+  <% } else{ %>
+  <% if( user.preference == 'Veg'){ %>
+            <p style="color: green;">Showing only Vegetarian Foods as per your preference.</p>
+  <% } %>
+  <% } %>
 <div class="tablehead">
         <li>Restaurant Name </li>
         <li>Price</li>

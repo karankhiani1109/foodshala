@@ -1,6 +1,11 @@
 
 body {
   background: #4098ff85;
+
+    zoom: 0.8; 
+    -moz-transform: scale(3); 
+    -moz-transform-origin: 0 0;
+
 }
 form {
   width: 60%;
