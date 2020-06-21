@@ -1,0 +1,167 @@
+<html>
+<head>
+
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<nav class="navbar navbar-default" style="height:100px;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src="/foodshala.png"></a>
+    </div>
+       <ul class="nav navbar-nav navbar-right" style="margin-right: 50px;">
+      <h4 class="hdd"></h4>
+
+     <a href="/login"> <button type="button" class="bttn">Login</button></a>
+  <a href="/register">      <button type="button" class="bttn">Register</button></a>
+
+    </ul>
+  </div>
+</nav>
+
+<% if( locals.errorMessagesA) { %>
+
+    <div class="alert alert-danger">
+  <%= errorMessagesA %>
+  </div>
+<% } %>
+<% if( locals.errorMessages) { %>
+  <% for(var i=0; i < errorMessages.length; i++) { %>
+  
+    <div class="alert alert-danger">
+        <%= errorMessages[i].msg %>
+    </div>
+  <% } %>
+   <% } %>
+
+
+<form method="post" id="customerform">
+  <img src="/customer.svg" style="width: 5%;margin: 0;">
+
+<h2>Customer Registration</h2>
+<input type="hidden" value="customer" name="type">
+ <label>
+    <p class="label-txt">ENTER YOUR NAME</p>
+    <input type="text" class="input" name="name" required>
+    <div class="line-box">
+      <div class="line"></div>
+    </div>
+  </label>
+  <label>
+    <p class="label-txt">ENTER YOUR EMAIL</p>
+    <input type="text" class="input" name="email">
+    <div class="line-box">
+      <div class="line"></div>
+    </div>
+  </label>
+  
+  <label>
+    <p class="label-txt">ENTER YOUR PASSWORD</p>
+    <input type="password" class="input" name="password1" required>
+    <div class="line-box">
+      <div class="line"></div>
+    </div>
+  </label>
+    <label>
+    <p class="label-txt">CONFIRM YOUR PASSWORD</p>
+    <input type="password" class="input" name="confirmPassword1" required>
+    <div class="line-box">
+      <div class="line"></div>
+    </div>
+  </label>
+   <label>
+    <p class="label-txt">CUSTOMER PREFERENCE </p>
+    <div style="display:inline;">
+    <input type="radio" class="input pref" name="preference" value="Veg"  required> Veg
+    <input type="radio" class="input pref" name="preference" value="Nonveg"  required> NonVeg
+    </div>
+  </label>
+  <button type="submit">submit</button><br><br><p>OR</p>
+  <button class="bttn" id="cus">Register as Restaurant</button>
+  </form>
+
+
+
+
+
+<form method="post" id="restaurantform" style="display:none;">
+  <img src="/restaurant.svg" style="width: 10%;margin: 0;">
+<h2>Restaurant Registration</h2>
+<input type="hidden" value="restaurant" name="type">
+ <label>
+    <p class="label-txt">ENTER YOUR RESTAURANT NAME</p>
+    <input type="text" class="input" name="resname" required>
+    <div class="line-box">
+      <div class="line"></div>
+    </div>
+  </label>
+  <label>
+  <label>
+    <p class="label-txt">ENTER YOUR RESTAURANT ADDRESS</p>
+    <input type="text" class="input" name="resaddress" required>
+    <div class="line-box">
+      <div class="line"></div>
+    </div>
+  </label>
+  <label>
+
+    <p class="label-txt">ENTER YOUR EMAIL</p>
+    <input type="text" class="input" name="resemail">
+    <div class="line-box">
+      <div class="line"></div>
+    </div>
+  </label>
+  
+  <label>
+    <p class="label-txt">ENTER YOUR PASSWORD</p>
+    <input type="password" class="input" name="password" required>
+    <div class="line-box">
+      <div class="line"></div>
+    </div>
+  </label>
+    <label>
+    <p class="label-txt">CONFIRM YOUR PASSWORD</p>
+    <input type="password" class="input" name="confirmPassword" required>
+    <div class="line-box">
+      <div class="line"></div>
+    </div>
+  </label>
+   
+  <button type="submit">submit</button><br><br><p>OR</p>
+  <button class="bttn" id="res">Register as Customer</button>
+</form>
+
+
+<script>
+$(document).ready(function(){
+
+  $('.input').focus(function(){
+    $(this).parent().find(".label-txt").addClass('label-active');
+  });
+
+  $(".input").focusout(function(){
+    if ($(this).val() == '') {
+      $(this).parent().find(".label-txt").removeClass('label-active');
+    };
+  });
+  $("#cus").click(function(){
+  $("#restaurantform").css("display", "block");
+  $("#customerform").css("display", "none");
+  
+});
+  $("#res").click(function(){
+  $("#restaurantform").css("display", "none");
+  $("#customerform").css("display", "block");
+  
+});
+
+});
+</script>
+</body>
+</html>

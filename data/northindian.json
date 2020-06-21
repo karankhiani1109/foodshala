@@ -1,0 +1,528 @@
+[
+ {
+   "Name": "Aloo gobi",
+   
+   "Description": "Cauliflower with potatoes sautéed with garam masala, turmeric, sometimes kalonji and curry leaves.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Aloo tikki",
+   
+   "Description": "Patties of potato mixed with some vegetables fried",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Aloo matar",
+   
+   "Description": "Potatoes and peas in curry",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Aloo methi",
+   
+   "Description": "Potato with fresh Methi leaves.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Aloo shimla mirch",
+   
+   "Description": "Green capsicum with potatoes sautéed with cumin seeds, onions, tomatoes, ginger-garlic paste, turmeric, red chilli powder and garam masala",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Amriti with rabdi",
+   
+   "Description": "a dessert made by combining amriti with rabdi",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Amritsari fish",
+   
+   "Description": "Fried fish made with curry, ginger, and garlic",
+   "type": "Non-Vegetarian"
+ },
+ {
+   "Name": "Amritsari kulcha",
+   
+   "Description": "mildly leavened flatbread",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Baati",
+   
+   "Description": "hard, unleavened bread cooked in most of areas of Rajasthan, and in some parts of Madhya Pradesh, and Gujarat states of India.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Bhatura",
+   
+   "Description": "a fluffy deep-fried leavened bread originating from the Indian subcontinent.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Bhindi masala",
+   
+   "Description": "Okra sautéed with onions and tomatoes",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Biryani",
+   
+   "Description": "Mixed rice dish, optional spices, optional vegetables, meats or seafood. Can be served with plain yogurt.",
+   "type": "Non-Vegetarian"
+ },
+ {
+   "Name": "Butter chicken",
+   
+   "Description": "dish, originating in the Indian subcontinent, of chicken in a mildly spiced tomato sauce. It is also known as murgh mahal",
+   "type": "Non-Vegetarian"
+ },
+ {
+   "Name": "Chaat",
+   
+   "Description": "Street food. Usually containing potato patty fried in oil, topped with sweet yogurt, and other sauces and spices",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Chana masala",
+   
+   "Description": "Chickpeas of the Chana type in tomato based sauce.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Chapati",
+   
+   "Description": "unleavened flatbread originating from the Indian subcontinent and staple in India, Nepal, Bangladesh, Pakistan, Sri Lanka, East Africa and the Caribbean.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Chicken razala",
+   
+   "Description": "a Bhopali style chicken cooked in a rich gravy with mint",
+   "type": "Non-Vegetarian"
+ },
+ {
+   "Name": "Chicken Tikka",
+   
+   "Description": "Chicken with spices served on a skewer",
+   "type": "Non-Vegetarian"
+ },
+ {
+   "Name": "Chicken Tikka masala",
+   
+   "Description": "Chicken marinated in a Yogurt tomato sauce. It is known to have a creamy texture.",
+   "type": "Non-Vegetarian"
+ },
+ {
+   "Name": "Chole bhature",
+   
+   "Description": "Main course with Chick peas, assorted spices, wheat flour and bhatura yeast.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Daal baati churma",
+   
+   "Description": "a Rajasthani specialty",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Daal puri",
+   
+   "Description": "Stuffed dal in parathas",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Dal makhani (kali dal)",
+   
+   "Description": "a main course with lentils",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Dal fara",
+   
+   "Description": "",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Dal",
+   
+   "Description": "Assorted types of lentils, sucfch as toor, urad, chana, masoor dal",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Dal fry with tadka",
+   
+   "Description": "Typical north Indian tadka",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Dum aloo",
+   
+   "Description": "Potatoes cooked in curry",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Poha",
+   
+   "Description": "Specialty from Madhya Pradesh. Common snack in central part of India. Flattended rice, potato, turmeric.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Fara",
+   
+   "Description": "Stuffed Lentil Dumplings",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Firni",
+   
+   "Description": "This is a dessert made of fine flour and ghee that is made only in Pundri.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "French bean aloo",
+   
+   "Description": "Diced French beans with potatoes cooked with chopped onions, tomatoes sautéed with cumin seeds, green chillies and garam masala",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Gajar ka halwa",
+   
+   "Description": "sweet dish native to U.P. / Punjab. Carrot, Milk, Ghee, Cashew.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Gajar matar aloo",
+   
+   "Description": "Diced red/orange carrots and potatoes sautéed with black mustard leaves, garnished with ground black pepper powder and lemon juice",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Gobhi matar",
+   
+   "Description": "Cauliflower in a tomato sauce",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Imarti",
+   
+   "Description": "spherically meshed sweet dish from North India made up of batter from moong dal dipped in sugary syrup",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Hari mutter ka nimona (green peas daal)",
+   
+   "Description": "a Typical north Indian tadka",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Jalebi",
+   
+   "Description": "A North Indian twisted noodle like sweet dish dipped in sugary syrup",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Jaleba",
+   
+   "Description": "A bigger form of jalebi",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Kachori",
+   
+   "Description": "Rajasthani / Marwari special",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Kadai paneer",
+   
+   "Description": "Paneer and green peppers in tomato gravy",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Kadhi pakoda",
+   
+   "Description": "Gram flour with yogurt with gramflour fried balls",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Karela bharta",
+   
+   "Description": "a bitter gourd or melon dish",
+   "type": "Usually vegetarian"
+ },
+ {
+   "Name": "Katha meetha petha / halwakadoo",
+   
+   "Description": "Pumpkin cooked in spices",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Kheer",
+   
+   "Description": "Rice cooked with milk and dry fruits",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Khichdi",
+   
+   "Description": "Rice cooked with daal and veggies and sauteed",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Kofta",
+   
+   "Description": "Gram flour balls fried with vegetables. Gram flour, veggies, rolled into balls with gram flour and fried in oil and then cooked with curry.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Kulfi falooda",
+   
+   "Description": "dessert to ward off sweltering heat of summers",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Lauki ke kofte",
+   
+   "Description": "a way to serve bottle gourd",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Lauki ki subji",
+   
+   "Description": "a way to serve bottle gourd",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Litti chokha",
+   
+   "Description": "a baked salted wheat flour cake filled with sattu (baked chickpea flour) and some special spices",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Makki di roti, sarson da saag",
+   
+   "Description": "Creamed sarson mustard leaves, with heavily buttered roti made from corn flour.  Punjabi winter favorite.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Mathura ke pede",
+   
+   "Description": "a sort of a confection",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Methi saag, chaulai saab",
+   
+   "Description": "Veggie leaves sauteed in oil and garlic with little masalas. Cooked mostly in central part of India.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Misi roti",
+   
+   "Description": "Whole wheat & gram flour dough ground masalas, pan fried",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Mixed vegetable",
+   
+   "Description": "mixed vegetables, slow cooked with a tomato sauce added.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Moong dal ka halwa",
+   
+   "Description": "a dish made with yellow lentils, milk, sugar, and nuts",
+   "type": "Vegetarian Dessert"
+ },
+ {
+   "Name": "Murgh musallam",
+   
+   "Description": "",
+   "type": "Non-Vegetarian"
+ },
+ {
+   "Name": "Mushroom do pyaza",
+   
+   "Description": "Mushrooms & Onions in a tomato masala sauce spiced with chilles",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Mushroom matar",
+   
+   "Description": "Mushrooms and sweet peas in a masala or chili sauce",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Naan",
+   
+   "Description": "Tandoor-baked soft flatbread made with refined wheat flour.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Navrattan korma",
+   
+   "Description": "Vegetables, Nuts, Paneer Cheese in a tomato cream sauce",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Pakhala",
+   "Description": "Cooked rice with water",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Palak paneer",
+   
+   "Description": "Paneer cubes in spinach gravy",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Paneer butter masala",
+   
+   "Description": "Paneer made with Indian Cheese. Paneer is substituted for meat in Vegetarian dishes",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Paneer tikka masala",
+   
+   "Description": "vegetarian alternative to chicken tikka masala",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Pani puri",
+   
+   "Description": "a typical Indian tadka",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Panjeeri",
+   
+   "Description": "a mixture of butter, dried fruits and whole wheat flour served as a dessert.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Papad",
+   "Description": "A crispy add on to Lunch and Dinner, for adding a spicy and crunchier taste to food.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Paratha",
+   
+   "Description": "flatbread native to the Indian subcontinent, prevalent throughout the modern-day nations of India, Sri Lanka, Pakistan, Nepal, Bangladesh, Maldives, and Myanmar, where wheat is the traditional staple",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Pattor",
+   
+   "Description": "A flour based snack",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Phirni",
+   
+   "Description": "a rice Pudding",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Pindi chana",
+   
+   "Description": "a chickpea dish",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Pinni",
+   
+   "Description": "An almond based dessert",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Rajma chaval",
+   
+   "Description": "a bean curry with rice",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Rajma",
+   
+   "Description": "Main. Kidney beans & assorted spices.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Ramatori subji",
+   
+   "Description": "a spicy side dish made with any two vegetables i.e. potatoes and cabbage",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Rongi",
+   
+   "Description": "Black eyes peas, onions and tomatoes in a curry sauce",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Samosa",
+   
+   "Description": "Normally served as an entree or appetiser. Potatoes, onions, peas, coriander, and lentils, may be served with a mint or tamarind sauce",
+   "type": "Vegetarian/meat varieties"
+ },
+ {
+   "Name": "Samose",
+   
+   "Description": "a typical north Indian tadka",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Sattu ki roti",
+   
+   "Description": "a dish from Bihar",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Shahi paneer",
+   
+   "Description": "A popular Indian, as well as Punjabi and Nepalese dish, made with paneer in a thick cream and tomato gravy and spices",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Shahi tukra",
+   
+   "Description": "a bread pudding in a rich sauce of thickened milk, garnished with sliced almonds",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Singhada halwa",
+   
+   "Description": "Lotus fruit dried and powdered to make this fasting sweet meat",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Sooji halwa",
+   
+   "Description": "Semolina cooked with clarified butter and dry fruits. Semolina (Suji), clarified butter, cashew nuts.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Sweet pethas / kesar petha / pista petha",
+   
+   "Description": "A ravioli like dessert stuffed with a choice of fillings and equally popular in various parts of India and Pakistan",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Vegetable jalfrezi",
+   
+   "Description": "Meat and spices fried in a pan. Can be vegetarian as well.",
+   "type": "Vegetarian"
+ },
+ {
+   "Name": "Tandoori Chicken",
+   
+   "Description": "Tandoori chicken as a dish originated in the Punjab before the independence of India and Pakistan.",
+   "type": "Non-Vegetarian"
+ },
+ {
+   "Name": "Tandoori Fish Tikka",
+   
+   "Description": "Fish marinated in lime and ginger and cooked over an open fire.",
+   "type": "Non-Vegetarian"
+ }
+]

@@ -1,0 +1,633 @@
+[
+ {
+   "Name": "Aam papad",
+   "Description": "A traditional Indian snack, it is a fruit leather made out of mango pulp mixed with concentrated sugar solution and sun dried. It is a part of the South Indian and North Indian cuisine and is available is numerous varieties all over North India."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Aappam",
+   "Description": "Appam  (Malayalam: അപ്പം, Tamil: ஆப்பம்) is a pancake made with fermented rice batter and coconut milk. It is a popular food in South Indian states of Kerala and Tamil Nadu. It is also very popular in Sri Lanka, where it is commonly referred to by its anglicized name as hopper."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Ada",
+   "Description": "A traditional delicacy from Kerala and found in Karnataka and Tamil Nadu by different names, it consists of rice parcels encased in a dough made of rice flour, with sweet fillings, steamed in banana leaf and served as an evening snack or as part of breakfast. Grated coconut and rice flour are the two main ingredients."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Anarsa",
+   "Description": "A pastry-like snack commonly associated with the Hindu festival of Diwali in Maharashtra, central and northern India, its ingredients include jaggery (unrefined cane sugar), rice, poppy seed, and ghee (clarified butter)."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Ariselu/Adhirasam/Arisha Pitha",
+   "Description": "A traditional sweet made from rice flour, ghee, and jaggery. Popular in Odisha and AndhraPradesh. Eaten as a delicacy during the festive season."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Name",
+   "Image": "Image",
+   "Description": "Description"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Baingan bharta",
+   "Description": "A South Asian dish bearing a resemblance to baba ganoush, it is a part of the national cuisines of both India and Pakistan. It is primarily a vegetarian dish that comprises bhurtha (minced vegetables) made from eggplant (baingan) which is grilled over charcoal or direct fire, to infuse the dish with a smoky flavour. The smoked eggplant is mashed with fresh cilantro (coriander leaves), chili pepper, onion, and mustard oil.[1] Traditionally, the dish is eaten with an Indian flatbread (specifically roti or paratha) and is also served with rice and/or raita, a yogurt salad. Baingan bartha is also eaten in Bangladesh."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Banana chips",
+   "Description": "Deep-fried and/or dried slices of bananas (fruits of herbaceous plants of the genus Musa of the soft, sweet dessert banana variety), they can be covered with sugar or honey and have a sweet taste, or they can be fried in oil and spices and have a salty and/or spicy taste.[2]"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Basundi",
+   "Description": "An Indian dessert mostly in Bihar, Maharashtra, Gujarat, and Karnataka, it is a sweetened condensed milk made by boiling milk and sugar on low heat until the milk is reduced by half. It is often made on Hindu festivals such as Kali Chaudas and Bhaubeej (Bhai Dooj)."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Batata vada",
+   "Description": "A popular Indian vegetarian fast food in Gujarat & Maharashtra, it literally means potato fritters. The name batata means potato. It consists of a potato mash patty coated with chick pea flour, then deep-fried and served hot with savory condiments called chutney. The vada is a sphere, around two to three inches in diameter."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Bhajia",
+   "Description": "A spicy Indian snack, it consists of a core food (like soaked potato or fried onions), similar to potato fritters, with several variants."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Bhakarwadi",
+   "Description": "A crispy sweet and spicy snack, popular in Maharashtra, Gujarat and Rajasthan. It is made from gram flour dough made into spirals stuffed with a mixture of coconut, poppy seeds and sesame seeds."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Bhelpuri",
+   "Description": "A savory Indian snack, it is made of puffed rice, vegetables, and a tangy tamarind sauce.[3] Bhelpuri is often identified with the beaches of Mumbai, such as Chowpatty.[4]"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Bhoonja",
+   "Description": "A snack consumed in North India, it is available in several versions under various names across the North Indian plains. Ingredients include specially roasted rice, mixtures of peanuts, various spiced pulses, seb (salty fried beans), coconut dried-ups, spices, salt, and mustard."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Bikaneri bhujia",
+   "Description": "A famous crisp snack, originating from Bikaner, a town in the western state of Rajasthan, it is prepared by using gram flour and spices.   Its other ingredients include moth dal, salt, red chilli, black pepper, cardamom, cloves, groundnut oil, etc. The dough is formed into a snack by pressing through a sieve and deep frying in vegetable oil. It is light yellow in colour. It is famously known to be born in Bikaner, and over the years has not just become a characteristic product of Bikaner, but also a generic name.[5]"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Biryani",
+   "Description": "A set of rice-based foods made with spices, rice (usually basmati) and chicken, mutton, fish, eggs, or vegetables. The name is derived from the Persian word beryā(n) (بریان) which means fried or roasted.[6] biryani was invented in the kitchen of Mughal emperors. Lahore, Kashmir, Kolkata, Ambur, Hyderabad, and Delhi/Agra are the main centers of biryani cuisine."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Bonda",
+   "Description": "A South Indian snack, it has various sweet and spicy versions in different regions. The process of making a spicy bonda involves deep-frying potato (or other vegetables) filling dipped in gram flour batter."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Boondi",
+   "Description": "Boondi is a Rajasthani snack food made from sweetened, fried chickpea flour."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Bhurji- Egg",
+   "Image": "Bhurji- Egg",
+   "Description": "Scrambled Eggs, made using Indian spices, Onion, Tomatoes, green chilli, and had with bread, or parathas."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Bhurji- Paneer",
+   "Image": "Bhurji- Paneer",
+   "Description": "Bhurji means scrambled. The paneer bhurji is made with tempered spices, chopped onion, tomatoes, green chillis & coriander. also used as filling for sandwiches, or had with breads, paratha."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Name",
+   "Image": "Image",
+   "Description": "Description"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Chaat",
+   "Description": "Many types and variations of chaat, which is a term describing savory snacks, are typically served at road-side tracks from stalls or food carts.[7][8]"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Chakli/chakodi",
+   "Description": "A crunchy Maharashtrian snack, it is typically served hot; it contains rice flour and chilli."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Chapati",
+   "Description": "An unleavened flatbread (also known as roti),[9] it is a common staple of cuisine in South Asia, as well as amongst South Asian expatriates. Versions of the dish are also found in Central Asia and the Horn of Africa, with the laobing flatbread serving as a local variation in China. Chapati is known as doday in Pashto."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Chole bhature",
+   "Description": "A combination of chana masala (spicy chick peas) and fried bread called bhatura (made of maida flour),[10] different varieties of bhature are available, such as aloo bhatura (filled with boiled potato) and paneer bhatura (filled with cottage cheese).  Pictured at top is chana masala, and bhatoora is below."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Chole Kulche",
+   "Description": "A North Indian snack, Chana is a dish made using chickpea, soaked overnight, boiled, and then cooked in a gravy made with onion, tomatoes, garlic, ginger, and fragrant Indian spices. Kulcha is a form of yeast leavened flat bread, baked in oven. A variant also includes Amritsari Kulcha, in which, the bread is made after being stuffed with a potato based filling, and then baked in the coal fired tandoor oven."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Name",
+   "Image": "Image",
+   "Description": "Description"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Dabeli",
+   "Description": "A snack food of India, originating in the Kutch or Kachchh region of Gujarat, it is a spicy snack made by mixing boiled potatoes with a dabeli masala, and putting the mixture between ladi-pav (burger bun) and served with chutneys made from tamarind, date, garlic, red chillies, etc. and garnished with pomegranate and roasted peanuts."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Dal dhokli",
+   "Description": ""
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Dahi puri",
+   "Description": "An Indian snack which is especially popular in the state of Maharashtra, it is a form of chaat from the city of Mumbai.[11]  It is served with mini-puri shells (golgappa), which are more popularly recognized from the dish pani puri.  Dahi puri and pani puri chaats are often sold from the same vendor."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Dahi vada",
+   "Description": "An Indian chaat, prepared by soaking vadas in thick yogurt. To add more flavor, they may be topped with coriander or mint leaves, chillies, crushed black pepper, chaat masala, cumin, shredded coconut, green chillies, or boondi."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Dhokla",
+   "Description": "Dhokla is a vegetarian food item, from the Indian state of Gujarat, is made with a fermented batter derived from rice and split chickpeas."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Dosa",
+   "Description": "A fermented crepe or pancake made from rice batter and black lentils,[12] it is indigenous to and is a staple dish in the South Indian states of Andhra Pradesh, Karnataka, Kerala, and Tamil Nadu, as well as being popular in Sri Lanka. Dosa is also popular in Singapore,[13] where the name thosai is more common,[14] and in Myanmar as toshay."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Name",
+   "Image": "Image",
+   "Description": "Description"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Flattened rice / pohe",
+   "Description": "An easily digestible, dehusked rice which is flattened into flat light dry flakes, these flakes of rice swell when added to liquid, whether hot or cold, as they absorb water, milk, or any other liquids. The thicknesses of these flakes vary between almost translucently thin (the more expensive varieties) to nearly four times thicker than a normal rice grain."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Name",
+   "Image": "Image",
+   "Description": "Description"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Gajar ka halwa",
+   "Description": "A sweet dessert pudding associated mainly with the state of Punjab in India and Pakistan,[15] it is made by placing grated carrot in a jar containing a specific amount of water, milk, and sugar, and then cooking, stirring regularly. It is often served with a garnish of almonds and pistachios.[16] The nuts and other items used are first sautéed in ghee.[17]"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Gavvalu",
+   "Description": ""
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Ghever",
+   "Description": "A Rajasthani sweet traditionally associated with the Teej Festival, it is disc-shaped, and made from ghee, flour, and sugar syrup. The many varieties of ghevar include plain, mawa, and malai ghevar."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Ghugni",
+   "Description": "An evening snack in Eastern India (Assam, Bengal, Bihar, Orissa). Black gram (Kala Chana) or dried yellow peas or dried white peas is cooked with gravy, in the traditional eastern Indian style. It is then served with murmura (puffed rice), and at times with hot onion pakoda/bhajiya."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Gulab jamun",
+   "Description": "A popular cheese-based dessert, similar to a dumpling, popular in countries of the Indian Subcontinent such as India, Pakistan, Sri Lanka, Nepal and Bangladesh. In Nepal it is widely known as Lalmohan, served with or without yogurt, and is a popular dessert on all occasions. It is made mainly from milk solids, traditionally from freshly curdled milk. These milks solids, known as khoya in India, are kneaded into a dough, sometimes with a pinch of flour, and then shaped into small balls and deep fried at a low temperature of about 148 °C.[18]  The balls are then soaked in a light sugar syrup flavored with green cardamom and rosewater, kewra or saffron.[19]"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Name",
+   "Image": "Image",
+   "Description": "Description"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Halva",
+   "Description": "Various types of halva from India are distinguished by the region and the ingredients from which they are prepared. The most famous include Thirunelveli halwa, sooji  (or suji) halva (semolina),[20] aate ka halva (wheat),[21] moong dal ka halva (mung bean halva),[22] gajar halva (carrot),[23] dudhi halva, chana daal halwa (chickpeas), and Satyanarayan halwa (variation of suji halwa, with the addition of detectable traces of banana), and kaju halva (cashew nut)."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Name",
+   "Image": "Image",
+   "Description": "Description"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Idli",
+   "Description": "A traditional breakfast in all of the South Indian states cuisines, idli is a savoury cake that has become popular throughout India. The cakes are usually two to three inches in diameter and are made by steaming a batter consisting of fermented black lentils (de-husked) and rice. The fermentation process breaks down the starches so that they are more readily metabolized by the body."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Indian-mix",
+   "Description": "Also known as Bombay mix, the name used in the United Kingdom and Ireland for a traditional Indian snack known as chiwda, chevdo, bhuso (if made without potato), chevda (चिवडा) or chivdo (चिवडो) in India, or Chanāchura (Odia: ଚନାଚୁର)  in Odisha and chanachur (চানাচুর) in Bengal.  The English name originates from the city of Mumbai (formerly known as Bombay), India. It consists of a variable mixture of spicy dried ingredients, which may include fried lentils, peanuts, chickpea flour noodles, corn, vegetable oil, chickpeas, flaked rice, fried onion and curry leaves."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Indian omelette",
+   "Description": "A version of the omelette found in Indian cuisine.  Its main ingredients are eggs, herbs, tomatoes and spices that vary by region. The omelette commonly includes finely chopped green chili peppers and onions (or shallots), finely chopped fresh green coriander, salt, and jeera (cumin), and many variations exist."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Name",
+   "Image": "Image",
+   "Description": "Description"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Jalebi",
+   "Description": "A sweet popular in countries of the Indian Subcontinent such as India, Pakistan, Sri Lanka, Nepal, and Bangladesh as well as many other countries in the Middle East and North Africa, like Iran, Iraq, Jordan, Syria, Palestine, Lebanon, Egypt, Tunisia and Morocco. It is made by deep-frying a wheat-flour (Maida flour) batter in pretzel or circular shapes, which are then soaked in sugar syrup."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Jhal-Muŗi (West Bengal)",
+   "Description": "One of the most popular and iconic snack foods of Bengal, jhal literally means hot or spicy. Jhal-muŗi is puffed rice with spices, vegetables and raw mustard oil. Depending on what is added, there are many kinds of jhal-muŗi but the most common is a bhôrta made of chopped onion, jira roasted ground cumin, bitnoon black salt lôngka / morich chilis (either kacha ripe or shukna dried), mustard oil, and dhone pata (fresh coriander leaves)."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Name",
+   "Image": "Image",
+   "Description": "Description"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Kachori",
+   "Description": "Usually a round flattened ball made of fine flour filled with a stuffing of baked mixture of yellow moong dal or urad dal (crushed and washed horse beans), besan (crushed and washed gram flour), black pepper, red chili powder, salt and other spices. This spicy snack is popular in various areas of India including Uttar Pradesh, Rajasthan, Delhi, Maharashtra, Madhya Pradesh, Gujarat, Bengal and Orissa.[24] It is also a popular snack food in Karachi, Pakistan."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Kalathappam",
+   "Description": "A North Malabar delicacy made of rice flour, jaggery sugar, fried onions or shallots and coconut flakes and either cooked in a pan like a pancake or baked in a traditional oven.[25]"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Kati roll",
+   "Description": "A street food originating from Kolkata. Its original form was a kati kabab enclosed in a paratha (Indian fried flat bread)"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Kebab",
+   "Description": "A wide variety of skewered meals originating in the Middle East and later on adopted in the Balkans, the Caucasus, other parts of Europe, as well as Central and South Asia, that are now found worldwide. Pictured are lamb kebabs."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Kesari",
+   "Description": "A sweet dish commonly made in South India. The sweet dish is made with semolina, sugar & ghee. Since a pinch of Saffron(kesari) is added to give the sweet dish an orange color, the sweet dish is names as Kesari"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Khakhra",
+   "Description": "a popular vegetarian roasted Gujarati Indian thin cracker bread or snack item made from mat bean and wheat flour and oil.[26]"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Khaman Dhokla",
+   "Description": "A vegetarian food item that originates from the Indian state of Gujarat. It is made with a fermented batter of gram flour (chickpeas).[27] Khaman can be eaten for breakfast, as a main course, as a side dish or as a snack. The final touch to the soft and fluffy khaman is added with a garnishing of sesame seeds, mustard seeds, coriander leaves and even curry leaves. People who savour the taste of coconut may add some grated coconut on the top to enhance the flavour. It is a preferred variant of Dhokla and has a lighter colour."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Khandvi",
+   "Description": "A collective term used for a type of snacks in Gujarati cuisine, from the Indian state of Gujarat.[28] It is made mainly of gram flour and yogurt which is slowly cooked into a paste. The mixture is then spread out to cool, cut, and rolled into scroll shapes.  Some are fried items which are then dried and can be stored, others are fresh or steamed."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Kinnathappam",
+   "Description": "A very popular traditional sweet cake widely used in North Malabar. Its process of cooking takes a considerable amount of time.[29]"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Kosambari",
+   "Description": "A salad made from pulses (split legumes) and seasoned with mustard seeds. The pulses generally used are split bengal gram (kadale bele in Kannada) and split Green gram (Hesaru bele in Kannada). These salads are sometimes eaten as snacks, but usually as a part of full course meal in Udupi cuisine."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Name",
+   "Image": "Image",
+   "Description": "Description"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Laddoo",
+   "Description": "A ball-shaped sweet popular in Indian Subcontinent as well as regions with immigrants from the Subcontinent such as Hijaz.[30] Laddu is made of flour and sugar with other ingredients that vary by recipe. It is often served at festive or religious occasions."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Lukhmi",
+   "Description": "A mince savory or starter of the cuisine of Hyderabad, India.[31] The snacks authentic preparation includes stuffing with mutton-mince kheema. It is a non-vegetarian derivative of samosa; it is also shaped into a flat square patty, but the fillings could be different."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Name",
+   "Image": "Image",
+   "Description": "Description"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Maddur vada",
+   "Description": "Unique to the state of Karnataka, India, theyre made with rice flour, semolina and maida flour which is mixed with sliced onion, curry leaves, grated coconut and asafoetida. All the ingredients are fried in small amount of oil and then mixed with water to make a soft dough. A small amount of dough is taken and made into a patty and then deep fried in oil until it turns golden-brown."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Makka Poha",
+   "Description": "A significant part of Indian Gujarati cuisine, theyre usually fried in hot oil which puffs them up. It is an important ingredient of the farsan (savoury) chevda."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Malapua",
+   "Description": "A pancake served as a dessert or a snack. The batter for malapua in some areas is prepared by crushing ripe bananas or (in Bangladesh) coconut, adding flour, and water or milk. The mixture is sometimes delicately seasoned with cardamoms. It is deep fried in oil, and served hot. Malpua is a famous dish during the Muslim holy month of Ramadan. Muslim families across India, as well as Pakistan prepare malpuas for iftar (meal to break the fast)."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Mangalore bajji",
+   "Description": "As it is referred to in Karnataka (Golibaje in South Canara), Mangalore bajji is a popular food made from maida, curd, rice flour, chopped onion, coriander leaves, coconut, jeera, green chillies, and salt."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Masala puri",
+   "Description": "A type of chaat having originated in Karnataka, it is a snack popular in the Indian states of Karnataka and Tamil Nadu. Crushed puris are soaked in hot masala gravy made up of green peas, chili powder, garam masala, chaat masala, coriander powder, etc. Toppings of small slices of onion and tomato, carrot shavings (optional), coriander leaves and sev are then added, before the dish is served."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Mirchi Bajji",
+   "Description": "A snack famous in Andhra Pradesh and northern Karnataka. It is a spicy snack consisting of chili (mirchi), served hot with tomato sauce or occasionally with mint and tamarind chutney."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Modak",
+   "Description": "A sweet delicacy shaped like a dumpling native to Maharashtra, Gujarat, and Southern India.  The sweet filling inside a modak is made up of fresh grated coconut and jaggery, while the soft shell is made from rice flour, or wheat flour mixed with khava or maida flour. The dumpling can be fried or steamed. The steamed version, called ukdiche modak, is eaten hot with ghee. Modak has a special importance in the worship of the Hindu god Ganesh. During the Ganesh worship ceremony, known in India as Ganesh Chaturthi the puja always concludes with an offering of modaks to the deity and as prasad."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Momo",
+   "Description": "A type of dumpling native to Nepal, Tibet,  the bordering regions of Bhutan, and the Himalayan states of India including Sikkim and Arunachal Pradesh. It is similar to the Japanese Gyoza, the Mongolian buuz or the Chinese baozi and jiaozi. Different types of meat fillings are popular in different regions."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Murukku",
+   "Description": "A South Indian snack of savory crunchy twists made from rice and urad dal flour.[32] Murukku means twisted in the Tamil language.[33] The town of Manapparai in Tamil Nadu is particularly known for its murukku. These days, Manappari Murukku can be bought online.[34] Murukku is made in many varieties as a traditional treat for festivals such as Diwali and Krishna Janmashtami.[35]  Murukku are often served on special occasions within Iyer (Tamil Brahmin) families.[36] Murukku is known by different names across the different South Indian states, and is made from a variety of ingredients."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Mysore pak",
+   "Description": "A sweet dish of Karnataka, India, usually served as a dessert. It is made of generous amounts of ghee (clarified butter), sugar and gram flour. Pak or Paka in Kannada means the sugar syrup; generally paka is also referred to as a dish resembling to nalapaka and bhimapaka."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Name",
+   "Image": "Image",
+   "Description": "Description"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Namak para",
+   "Description": "A crunchy savory snack, theyre ribbon-like strips of pastry delicately seasoned with cumin seeds, carom seeds, and caraway seeds and deep fried in pure ghee (clarified butter)."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Namkeen",
+   "Description": "Namkeen or Namkin are Hindi words for savory or salty foods. The word is probably derived from the Hindi word for salt, which is Namak. Khaara, Farsan, Chevda, Sev, Chips, Bhajiya, Mixture are some other names of Namkeen, used in different parts of India. Namkeen of Indore and Ratlam is very famous for its taste."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Neyyappam",
+   "Description": "Neyyappam is a Kerala snack, made of rice flour, ghee, and jaggery."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Name",
+   "Image": "Image",
+   "Description": "Description"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Pakora",
+   "Description": "Created by taking one or two ingredients such as onion, eggplant, potato, spinach, plantain, paneer, cauliflower, tomato, chili pepper, or occasionally apple[37] or chicken and dipping them in a batter of gram flour, they are then deep-fried. The most popular varieties are palak pakora, made from spinach, paneer pakora, made from paneer (soft cheese), pyaz pakora, made from onion, and aloo pakora, made from potato."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Pakwan",
+   "Description": "Crisp snacks"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Palappam",
+   "Description": "A Nasrani dish of fermented bread made with rice batter and coconut milk, hence the name palappam (meaning milk bread). It is a staple food and a cultural synonym of the Nasranis of Kerala in coastal south west India. The rice batter for palappam is made on a stone griddle and coconut milk with toddy is used for fermentation. The toddy used for fermentation of the milk bread or palappam yields it the name kallappam, (kall means toddy), while the rice batter and coconut milk gives a white colour to it, yielding the name vellayappam or white bread. The palappam is prepared in an appa kal (mould) and looks like a pancake."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Paneer tikka",
+   "Description": "Made from chunks of paneer marinated in spices and grilled in a tandoor,[38][39] it is a vegetarian alternative to chicken tikka and other meat dishes.[40][41][42] It is a popular dish that is widely available in India and other countries with an Indian diaspora.[43][44]"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Panipuri",
+   "Description": "A popular street snack in India, Pakistan, Bangladesh, Sri Lanka, and Nepal, it consists of a round, hollow puri, fried crisp and filled with a mixture of flavored water (pani), tamarind chutney, chili, chaat masala, potato, onion, and chickpeas. It is generally small enough to fit completely into ones mouth. It is a popular street food dish in Mumbai, Delhi, Karachi, Lahore, Dhaka, Kolkata, and Kathmandu.[citation needed]"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Papadum or Papad",
+   "Description": "A thin, crisp Indian preparation sometimes described as a cracker, it is typically served as an accompaniment to a meal in India. It is also eaten as an appetizer or a snack, and can be eaten with various toppings such as chopped onions, chutney, or other dips and condiments."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Papri chaat",
+   "Description": "A Pakistani and North Indian fast food, chaat, an Indo-Aryan word which literally means lick, is used to describe a range of snacks and fast-food dishes; papri refers to crisp fried dough wafers made from refined white flour and oil. In papri chaat, the papris are served with boiled potatoes, boiled chick peas, chilis, yogurt, and tamarind chutney and topped with chaat masala and sev."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Paratha",
+   "Description": "A flatbread that originated in the Indian subcontinent in the Pakistani and Indian state of Punjab, paratha is an amalgamation of the words parat and atta, which literally means layers of cooked dough.[45] The paratha dough usually contains ghee or cooking oil which is also layered on the freshly prepared paratha.[46] Parathas are usually stuffed with vegetables such as boiled potatoes (as in aloo ka paratha), leaf vegetables, radishes or cauliflower and/or paneer (South Asian cheese)."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Parotta",
+   "Description": "One of the most popular unleavened flat breads in Punjabi North Indian cuisine, Pakistani cuisine, and South Indian cuisine, it is made by pan frying whole wheat dough on a tava.[47]"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Pav Bhaji",
+   "Description": "A Maharashtrian fast food dish that originated in Maharashtrain cuisine, it is native to Maharashtra and has now become popular in most metropolitan areas in India, especially in those of central and western Indian states[48] such as Gujarat and Karnataka.[49] Pav in Marathi means a small loaf of bread. Bhaji in Marathi means vegetable dish. Pav bhaji consists of bhaji (a thick potato-based curry) garnished with coriander, chopped onion, and a dash of lemon and lightly toasted pav. The pav is usually buttered on all sides."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Piyaju",
+   "Description": ""
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Pohe (Maharashtrian)",
+   "Description": "An Indian fast food prepared in Maharashtra and some Northern States. Northern variants of this dish tend to be sweet, while Maharashtrian pohay tends to be spicy. It is also often served with an extremely spicy curry, locally called tarri. Pohay with tarri is a relished snack in the Vidharbha region of Maharashtra state. Pohay is made of flattened, processed rice, roasted with chili peppers, onions, mustard and cumin seeds and curry leaves (called Kadi-patta).An easily digestible, dehusked rice which is flattened into flat light dry flakes. These flakes of rice swell when added to liquid, whether hot or cold, as they absorb water, milk or any other liquids. The thicknesses of these flakes vary between almost translucently thin (the more expensive varieties) to nearly four times thicker than a normal rice grain.[50]"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Ponganalu",
+   "Description": ""
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Poornalu",
+   "Description": "A traditional sweet in the Telugu festivals. It is made of rice flour stuffed with jaggery mixed dal paste and dry fruits. It is often served hot with ghee. It is called Poornalu in the Andhra region."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Pootharekulu",
+   "Description": "Pootharekulu is a popular sweet from Atreyapuram, East Godavari, India. Pootha is coating and Reku (plural Rekulu) is sheet in Telugu. Pootharekulu are also known as ‘Paper sweets’ as they give the appearance of folded paper. It is made from a particular rice batter called jaya biyyam (biyyam means rice), powdered sugar and ghee (clarified butter)."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Potato chips",
+   "Description": "A thin slice of potato that is deep fried or baked until crunchy."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Puffed rice",
+   "Description": "A type of puffed grain made from rice; usually made by heating rice kernels under high pressure in the presence of steam, though the method of manufacture varies widely. Pori (Puffed Rice) has been mentioned in various Tamil literatures as an offering to Hindu deities. Offerings of pori and jaggery made to Vinayagar (Lord Ganesh) are mentioned in the Tiruppugazh, a 15th-century anthology of Tamil religious songs, written by Tamil poet Arunagirinathar. Pori is offered to Hindu gods and goddesses in all poojas in the South Indian states of Kerala and Tamil Nadu."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Puffs",
+   "Description": ""
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Punugulu",
+   "Description": "Punukkulu is an Andhra snack and common street food in Vijayawada and few coastal districts of Andhra Pradesh. Punugulu is a deep fried snack made with rice, urad dal and other spices. They are often served with peanut chutney called as verusanaga chutney or palli chutney or Toordal chutney called as Kandhi Pachadi or they can be served with capsicum peanut chutney."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Puran Poli",
+   "Description": "A traditional type of sweet flatbread made in India in the states of Karnataka, Maharashtra, Gujarat, andhra pradesh and Goa.[51]"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Puri",
+   "Description": "Eaten for breakfast or as a snack or light meal, puri is prepared with wheat flour, either atta (whole wheat flour), maida (refined wheat flour), or sooji (coarse wheat flour). A dough of flour and salt is either rolled out in a small circle or rolled out and cut out in small circles and deep fried in ghee or vegetable oil.  While deep frying, it puffs up like a round ball because moisture in the dough changes into steam which expands in all directions. When it is golden-brown in color, it is removed and may be served hot or saved for later use (as with the snack food pani puri)."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Puri bhaji",
+   "Description": "A Pakistani and Indian dish made up of puri and aloo bhaji. The puris are made up of flat rounds of flour which are deep fried, served with a spiced potato dish which could be dry or curried.[52] It is a traditional breakfast dish in North India.[53]"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Rava laddu",
+   "Description": "Description"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Ros omelette",
+   "Description": "Ros omelette is a famous snack in Goan cuisine. Ros means gravy in Konkani and is a spicy gravy of either chicken or chickpeas. The omelette is a version which contains eggs, herbs, finely chopped green chili peppers, onions (or shallots), finely chopped fresh green coriander, and salt although many variations exist depending on price point. The omelette is fried separately after beating the egg with the above ingredients while the ros is cooked separately before hand. While serving the hot ros is poured over a freshly fried omelette and served with a couple of Goan pão (or Goan bread)."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Name",
+   "Image": "Image",
+   "Description": "Description"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Sabudana vada",
+   "Description": "A traditional deep fried snack from Maharashtra, India. It is often served with spicy green chutney and along with hot chai and is best eaten fresh.[54] The methods of preparation are simple, but time consuming, as the main ingredients used in preparation of Sabudana vada require some processing. For example, sabudana (sago), the main constituent of vada, needs to be soaked overnight; potatoes need to boiled, peeled and then mashed; and peanuts need to be roasted and ground to a coarse powder after removing their husks. Additional ingredients of sabudana vada include red chili, green chilies and coriander leaves (finely chopped), salt and vegetable oil (for deep frying)."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Sakinalu",
+   "Description": "A special type of snack prepared in Telangana, parts of Guntur District and very popular in all districts of Telangana Region.[55][56] It is essentially made up of rice flour and with small amount of spices, sesame seeds, carom Seeds (ajwain), and salt. It is prepared during Makar Sankranti festival by all people irrespective of Caste and Creed.[57] Sakinalu are also given to the grooms by the brides parents for distributing among their relatives and friends.[58]"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Samosa, also known as tikona",
+   "Description": "A fried or baked pastry with a savory filling, such as spiced potatoes, onions, peas, lentils, ground lamb, ground beef or ground chicken. The size, shape and consistency may vary, but typically, they are distinctly triangular. Samosas are often accompanied by chutney.[59] They are a popular appetizer or snack in South Asia, Southeast Asia, Central Asia and Southwest Asia, the Arabian Peninsula, the Mediterranean, the Horn of Africa, North Africa, and South Africa."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Sandwich",
+   "Description": "A food item consisting of two or more slices of bread with one or more fillings between them.[60][61][62] Sandwiches are a widely popular type of lunch food, typically taken to work, school, or picnics to be eaten as part of a packed lunch. They generally contain a combination of salad vegetables, meat, cheese, and a variety of sauces or savoury spreads."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Sarva Pindi",
+   "Description": "Prepared from a rice flour, ground nuts, salt, onion garlic paste etc. the mixture is made into atta and then stick this to a tawa in a circle shape and toast until turns into golden color. It is traditionally enjoyed as a dish in Telangana state.[63]"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Sev mamra",
+   "Description": "A mixture of spicy dry ingredients such as puffed rice, savoury noodles (sev) and peanuts. It is available in most parts of India, though it is known by different names in different regions."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Shankarpali",
+   "Description": "Shankarpali, which is also known as Sakkarpara, is prepared from a dough of milk, sugar, ghee, maida, semolina and salt, the mixture is made into dough and then cut into diamond shaped pieces which are deep fried in ghee or butter.[64] It is traditionally enjoyed as a treat on the Diwali holiday."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Shrikhand",
+   "Description": "A sweet dish made of strained yogurt.[65] It is one of the main desserts in Gujarati Cuisine & Maharashtrian cuisine. Preparation of this dish is very simple but it takes some time to process yogurt properly. The strained yogurt, referred to as Chakka, and sugar are mixed thoroughly in a deep bowl. Cardamom, saffron, and any other flavors are then added and mixed. It is then left in the refrigerator for the sugar to dissolve. The dish is served chilled."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Name",
+   "Image": "Image",
+   "Description": "Description"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Tele-bhaja (Bengal)",
+   "Description": "Pictured are Bengali fritters (tele bhaja) made with different vegetables and besan."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Name",
+   "Image": "Image",
+   "Description": "Description"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Upma",
+   "Description": "Upma or Uppuma or Uppittu is a common South Indian and Sri Lankan Tamil breakfast dish, cooked as a thick porridge from dry roasted semolina or coarse rice flour. Various seasonings and/or vegetables are often added during the cooking, depending on individual preferences."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Name",
+   "Image": "Image",
+   "Description": "Description"
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Vada pav (Maharashtrian)",
+   "Description": "A popular vegetarian fast food dish native to the Indian state of Maharashtra. It consists of a batata vada sandwiched between 2 slices of a pav. The compound word batata vada refers in Marathi to a vada (fritter) made out of batata, the latter referring to a potato. Pav refers to unsweetened bread or bun."
+ ,
+   "type": "Vegetarian" },
+ {
+   "Name": "Vadai",
+   "Description": "A savory fritter-type snack from South India,[66] vadai is a traditional South Indian food known from antiquity.[67] The snacks main ingredients typically include lentils, potatoes and onions, and many variations exist."
+ ,
+   "type": "Vegetarian" },
+   {
+   "Name": "Tandoori Chicken",
+   
+   "Description": "Tandoori chicken as a dish originated in the Punjab before the independence of India and Pakistan.",
+   "type": "Non-Vegetarian"
+ },
+ {
+   "Name": "Tandoori Fish Tikka",
+   
+   "Description": "Fish marinated in lime and ginger and cooked over an open fire.",
+   "type": "Non-Vegetarian"
+ }
+]

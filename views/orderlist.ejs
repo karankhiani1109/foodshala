@@ -1,0 +1,149 @@
+
+
+<html>
+<head>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<link rel="stylesheet" href="/style.css">
+</head>
+<body >
+<nav class="navbar navbar-default" style="height:100px;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src="/foodshala.png"></a>
+     
+  </div>
+  <% if( typeof user == "undefined" ) { %>
+    <ul class="nav navbar-nav navbar-right" style="margin-right: 50px;">
+      <h4 class="hdd">Please Login to Order Now</h4>
+
+     <a href="/login"> <button type="button" class="bttn">Login</button></a>
+  <a href="/register">      <button type="button" class="bttn">Register</button></a>
+
+    </ul>
+    <% } else { %>
+  
+    <ul class="nav navbar-nav navbar-right" style="margin-right: 50px;">
+      <h4 class="hdd"> Welcome <%= user.name %></h4>
+
+  <a href="/logout">      <button type="button" class="bttn">Logout</button></a>
+
+    </ul>
+    <% } %>
+</div>
+</nav>
+<center>
+<% if( locals.alertdata) { %>
+	 <div class="alert alert-info">
+  		<%= alertdata %>
+  	</div>
+<% } %>
+</center>
+<% if( user.type == "User") { %>
+<div class="box" id="box">
+
+     <a href="/displayitems"> <button type="button" class="bttn">Back to Menu</button></a>
+  <h2>Order List Page</h2>
+   
+<div class="tablehead" style="padding: 0;">
+        <li>Item name</li>
+        <li style="    padding-left: 320;">Restaurant Name </li>
+        <li>Amount Paid</li>
+      </div>
+
+<% for(var i=0; i < result.length; i++) { %>
+         <label class="addmenu2" style="word-spacing: 0"><b class="itemname"><%= result[i].itemname %></b>
+      
+      <% if(result[i].item.type == 'Vegetarian'){ %>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Indian-vegetarian-mark.svg/1200px-Indian-vegetarian-mark.svg.png" style="margin: 5; width: 3%;">
+      <%} else{ %>
+      <img src="https://b.kisscc0.com/20190326/jze/kisscc0-vegetarian-and-non-vegetarian-marks-logo-symbol-fo-non-veg-icon-5c9abd87a6e2c9.4186814515536449356836.png" style="margin: 5; width: 3%;">
+      <% } %>
+
+     <br><div class="description"><%= result[i].item.description %> <br></div><br>
+     <div> </div>
+      
+      <table class="tableview">
+        <tbody>
+        <tr>
+        <td class="restaurantname"><%= result[i].restaurantname %></td>
+        <td>&#8377;<%= result[i].amount %></td>
+       
+           <td><a id="cancel-buttn"><button type="button" class="cancel-bttn">CancelOrder</button></a></td>
+     
+
+          </tbody>
+      </table>
+    </label>
+<% } %>
+</div>
+<% } else { %>
+
+<div class="box" id="box">
+
+     <a href="/addmenu"> <button type="button" class="bttn">Back to Menu</button></a>
+  <h2>Restaurant Order List Page</h2>
+   
+<div class="tablehead" style="padding: 0;">
+        <li>Item name</li>
+        <li style="    padding-left: 320;">Customer Name </li>
+        <li>Amount Paid</li>
+      </div>
+
+<% for(var i=0; i < result.length; i++) { %>
+         <label class="addmenu2" style="word-spacing: 0"><b class="itemname"><%= result[i].itemname %></b>
+      
+      <% if(result[i].item.type == 'Vegetarian'){ %>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Indian-vegetarian-mark.svg/1200px-Indian-vegetarian-mark.svg.png" style="margin: 5; width: 3%;">
+      <%} else{ %>
+      <img src="https://b.kisscc0.com/20190326/jze/kisscc0-vegetarian-and-non-vegetarian-marks-logo-symbol-fo-non-veg-icon-5c9abd87a6e2c9.4186814515536449356836.png" style="margin: 5; width: 3%;">
+      <% } %>
+
+     <br><div class="description"><%= result[i].item.description %> <br><br> Cusine : <%= result[i].item.cusine %>   </div><br>
+     <div> </div>
+      
+      <table class="tableview">
+        <tbody>
+        <tr>
+        <td class="restaurantname"><%= result[i].custname %></td>
+        <td>&#8377;<%= result[i].amount %></td>
+       
+           <td><a id="cancel-buttn"><button type="button" class="cancel-bttn">CancelOrder</button></a></td>
+     
+
+          </tbody>
+      </table>
+    </label>
+<% } %>
+</div>
+
+
+
+<% } %>
+
+
+
+
+<script >
+  $("#cancel-buttn").click(function(){
+    if(confirm("This function is not available now")){
+        $("#order-button").attr("href", "/orderlist");
+    }
+    else{
+        return false;
+    }
+});
+
+
+  var x= '<%- JSON.stringify(result) %>';
+  console.log(x)
+
+</script>
+
+</body>
+</html>

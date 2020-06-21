@@ -1,0 +1,212 @@
+
+
+<html>
+<head>
+
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<nav class="navbar navbar-default" style="height:100px;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src="/foodshala.png"></a>
+     
+  </div>
+  <% if( typeof user == "undefined" ) { %>
+    <ul class="nav navbar-nav navbar-right" style="margin-right: 50px;">
+      <h4 class="hdd">Please Login to Order Now</h4>
+
+     <a href="/login"> <button type="button" class="bttn">Login</button></a>
+  <a href="/register">      <button type="button" class="bttn">Register</button></a>
+
+    </ul>
+    <% } else { %>
+  
+    <ul class="nav navbar-nav navbar-right" style="margin-right: 50px;">
+      <h4 class="hdd"> Welcome <%= user.name %></h4>
+
+     <a href="/orderlist"> <button type="button" class="bttn">View Orders</button></a>
+  <a href="/logout">      <button type="button" class="bttn">Logout</button></a>
+
+    </ul>
+    <% } %>
+</div>
+</nav>
+<center>
+<% if( locals.alertdata) { %>
+	 <div class="alert alert-info">
+  		<%= alertdata %>
+  	</div>
+<% } %>
+</center>
+
+<div class="box" id="box">
+  <h2>Menu Page</h2>
+ 
+<div class="tablehead">
+        <li>Restaurant Name </li>
+        <li>Price</li>
+      </div>
+<% if(typeof user == "undefined"){ %>
+<% for(var i=0; i < result.length; i++) { %>
+         <label class="addmenu2" style="word-spacing: 0"><b class="itemname"><%= result[i].itemname %></b>
+      
+      <% if(result[i].type == 'Vegetarian'){ %>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Indian-vegetarian-mark.svg/1200px-Indian-vegetarian-mark.svg.png" style="margin: 5; width: 3%;">
+      <%} else{ %>
+      <img src="https://b.kisscc0.com/20190326/jze/kisscc0-vegetarian-and-non-vegetarian-marks-logo-symbol-fo-non-veg-icon-5c9abd87a6e2c9.4186814515536449356836.png" style="margin: 5; width: 3%;">
+      <% } %>
+
+     <br><div class="description"><%= result[i].description %> <br><br>Available with Restaurants  :  <%= result[i].restaurant.length %></div><br>
+     <div> </div>
+      
+      <table class="tableview">
+        <tbody>
+        <% for(var j=0; j < result[i].restaurant.length; j++) { %>
+        <tr>
+        <td class="restaurantname"><%= result[i].restaurant[j].name %></td>
+        <td>&#8377;<%= result[i].amount[j] %></td>
+        <% if(typeof user == "undefined"){ %>
+       
+           <td><a id="order-button"><button type="button" class="bttn">Order</button></a></td>
+      <% }else{ %>
+           <form method="post" onSubmit="return confirm('Are you sure you want to order this item?');">
+          <input type="hidden" name="restaurant" value="<%= JSON.stringify(result[i].restaurant[j]) %>">
+          <input type="hidden" name="userdetails" value="<%= JSON.stringify(user) %>">
+          <input type="hidden" name="item" value="<%= JSON.stringify(result[i]) %>">
+          <input type="hidden" name="amount" value="<%= result[i].amount[j] %>">
+          
+        <td><button type="submit" class="bttn">Order</button></td>
+      </form>
+         
+        <% } %>
+
+        <% } %>
+
+          </tbody>
+      </table>
+    </label>
+<% } %>
+
+<% } else { %>
+
+<% for(var i=0; i < result.length; i++) { %>
+
+        <% if ( user.preference=="Veg"){ %>
+            <% if( result[i].type == 'Vegetarian'){ %>
+         <label class="addmenu2" style="word-spacing: 0"><b class="itemname"><%= result[i].itemname %></b>
+      
+            <% if(result[i].type == 'Vegetarian'){ %>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Indian-vegetarian-mark.svg/1200px-Indian-vegetarian-mark.svg.png" style="margin: 5; width: 3%;">
+            <%} else{ %>
+            <img src="https://b.kisscc0.com/20190326/jze/kisscc0-vegetarian-and-non-vegetarian-marks-logo-symbol-fo-non-veg-icon-5c9abd87a6e2c9.4186814515536449356836.png" style="margin: 5; width: 3%;">
+            <% } %>
+
+           <br><div class="description"><%= result[i].description %> <br><br>Available with Restaurants  :  <%= result[i].restaurant.length %></div><br>
+           <div> </div>
+            
+            <table class="tableview">
+              <tbody>
+              <% for(var j=0; j < result[i].restaurant.length; j++) { %>
+              <tr>
+              <td class="restaurantname"><%= result[i].restaurant[j].name %></td>
+              <td>&#8377;<%= result[i].amount[j] %></td>
+              <% if(typeof user == "undefined"){ %>
+             
+                 <td><a id="order-button"><button type="button" class="bttn">Order</button></a></td>
+            <% }else{ %>
+                 <form method="post" onSubmit="return confirm('Are you sure you want to order this item?');">
+                <input type="hidden" name="restaurant" value="<%= JSON.stringify(result[i].restaurant[j]) %>">
+                <input type="hidden" name="userdetails" value="<%= JSON.stringify(user) %>">
+                <input type="hidden" name="item" value="<%= JSON.stringify(result[i]) %>">
+                <input type="hidden" name="amount" value="<%= result[i].amount[j] %>">
+                
+              <td><button type="submit" class="bttn">Order</button></td>
+            </form>
+               
+              <% } %>
+
+              <% } %>
+
+                </tbody>
+            </table>
+          </label>
+          <%  } %>
+          <% } else { %>
+
+            <label class="addmenu2" style="word-spacing: 0"><b class="itemname"><%= result[i].itemname %></b>
+      
+            <% if(result[i].type == 'Vegetarian'){ %>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Indian-vegetarian-mark.svg/1200px-Indian-vegetarian-mark.svg.png" style="margin: 5; width: 3%;">
+            <%} else{ %>
+            <img src="https://b.kisscc0.com/20190326/jze/kisscc0-vegetarian-and-non-vegetarian-marks-logo-symbol-fo-non-veg-icon-5c9abd87a6e2c9.4186814515536449356836.png" style="margin: 5; width: 3%;">
+            <% } %>
+
+           <br><div class="description"><%= result[i].description %> <br><br>Available with Restaurants  :  <%= result[i].restaurant.length %></div><br>
+           <div> </div>
+            
+            <table class="tableview">
+              <tbody>
+              <% for(var j=0; j < result[i].restaurant.length; j++) { %>
+              <tr>
+              <td class="restaurantname"><%= result[i].restaurant[j].name %></td>
+              <td>&#8377;<%= result[i].amount[j] %></td>
+              <% if(typeof user == "undefined"){ %>
+             
+                 <td><a id="order-button"><button type="button" class="bttn">Order</button></a></td>
+            <% }else{ %>
+                 <form method="post" onSubmit="return confirm('Are you sure you want to order this item?');">
+                <input type="hidden" name="restaurant" value="<%= JSON.stringify(result[i].restaurant[j]) %>">
+                <input type="hidden" name="userdetails" value="<%= JSON.stringify(user) %>">
+                <input type="hidden" name="item" value="<%= JSON.stringify(result[i]) %>">
+                <input type="hidden" name="amount" value="<%= result[i].amount[j] %>">
+                
+              <td><button type="submit" class="bttn">Order</button></td>
+            </form>
+               
+              <% } %>
+
+              <% } %>
+
+                </tbody>
+            </table>
+          </label>
+          <% } %>
+
+
+
+
+
+
+<% } %>
+
+<% } %>
+
+
+
+
+
+</div>
+<script >
+  $("#order-button").click(function(){
+    if(confirm("Please Login to Order. Redirect to Login Page?")){
+        $("#order-button").attr("href", "/login");
+    }
+    else{
+        return false;
+    }
+});
+
+
+  var x= '<%- JSON.stringify(result) %>';
+  console.log(x)
+</script>
+
+</body>
+</html>

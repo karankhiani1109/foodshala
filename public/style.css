@@ -1,0 +1,236 @@
+
+body {
+  background: #4098ff85;
+}
+form {
+  width: 60%;
+  margin: 60px auto;
+  background: #efefef;
+  padding: 60px 120px 80px 120px;
+  text-align: center;
+  -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+}
+.box {
+  width: 60%;
+  margin: 60px auto;
+  background: #efefef;
+  padding: 60px 120px 80px 120px;
+  
+  -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+
+}
+.box2{
+    width: 60%;
+  margin: 60px auto;
+  background: #efefef;
+  padding: 60px 120px 80px 120px;
+  
+  -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+}
+label {
+  display: block;
+  position: relative;
+  margin: 40px 0px;
+}
+.label-txt {
+  position: absolute;
+  top: -1.6em;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: .8em;
+  letter-spacing: 1px;
+  color: rgb(120,120,120);
+  transition: ease .3s;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.line-box {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background: #BCBCBC;
+}
+
+.line {
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #4098ff85;
+  transition: ease .6s;
+}
+
+.input:focus + .line-box .line {
+  width: 100%;
+}
+
+.label-active {
+  top: -3em;
+}
+
+button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: rgb(220,220,220);
+  font-weight: bold;
+  color: rgb(120,120,120);
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: ease .3s;
+}
+
+button:hover {
+  background: #4098ff85;
+  color: #ffffff;
+}
+
+img{
+      width: 25%;
+      margin-top: -10px;
+    margin-left: 105px;
+}
+
+.pref{
+  width:2%;
+}
+.bttn{
+   display: inline-block;
+  padding: 12px 24px;
+  
+  background: #4098ff85;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: ease .3s;
+}
+.bttn:hover {
+  background: rgb(220,220,220);
+  color: rgb(120,120,120);
+}
+h2{
+  color: #4098ff85;
+  font-weight: bold;
+}
+h4{
+  color:black;
+  font-weight: bold;
+}
+.addmenu{
+  overflow: auto;
+    word-spacing: 100px;
+}
+select{
+  float: right;
+  margin-right: 35%;
+  width:300px;
+}
+.desc{
+     float: right;
+    width: 300px;
+    word-spacing: 0;
+    margin-right: 35%;
+    text-align: justify;
+}
+text{
+      color: #93c1f7;
+      padding-left: 20px;
+}
+.hdd{
+      color: #93c1f7;
+    font-weight: bold;
+    text-align: justify;
+    letter-spacing: 2.5;
+}
+
+.description{
+  width: 35%;
+    text-align: justify;
+    color: #3f3f3f;
+    margin-right: 0;
+    font-size: 10px;
+    float: left;
+}
+
+.tableview{
+  float: right;
+    width: 400px;
+    word-spacing: 0;
+    text-align: justify;
+}
+.itemname{
+  font-weight: bold;
+  font-size: 20px
+}
+.addmenu2:nth-child(even){
+  word-spacing: 0;
+    background-color: #cacaca;
+    padding: 10px;
+
+  overflow: auto;
+  margin: 0;
+    /*background-color: #dbebff;*/
+}
+
+.addmenu2:nth-child(odd){
+  word-spacing: 0;
+    background-color: #e2e2e2;
+    padding: 10px;
+
+  overflow: auto;
+  margin: 0;
+    /*background-color: #dbebff;*/
+}
+td{
+      width: 200px;
+    height: 75px;
+    font-family: sans-serif;
+}
+
+.tablehead{
+  display: inline-flex;
+    list-style: none;
+    padding-left: 50%
+}
+li{
+  margin: 10px;
+  color: #777777;
+  font-weight: bold;
+
+}
+.cancel-bttn{
+   display: inline-block;
+  padding: 12px 24px;
+  
+  background: red;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: ease .3s;
+}
+.cancel-bttn:hover {
+  background: rgb(220,220,220);
+  color: rgb(120,120,120);
+}
+
+.restaurantname{
+  font-weight: bold;
+}

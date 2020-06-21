@@ -1,0 +1,192 @@
+
+
+<html>
+<head>
+
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<nav class="navbar navbar-default" style="height:100px;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src="/foodshala.png"></a>
+     
+  </div>
+  <ul class="nav navbar-nav navbar-right" style="margin-right: 50px;">
+      <h4 class="hdd">Welcome <%= user.name %></h4>
+
+     <a href="/orderlist"> <button type="button" class="bttn">View Orders</button></a>
+	<a href="/logout">      <button type="button" class="bttn">Logout</button></a>
+
+    </ul>
+</div>
+</nav>
+<center>
+<% if( locals.alertdata) { %>
+	 <div class="alert alert-success">
+  		<%= alertdata %>
+  	</div>
+<% } %>
+</center>
+<form id="additem" class="box"  method="post" >
+<div  id="box">
+<input type="hidden" value="<%= JSON.stringify(user) %>" name="restaurant">
+<h2> Add new food item </h2>
+<h4>Choose the options to add food item to your Restaurant menu <text >OR</text>  <button type="button" class="bttn" style="float:right;margin-top: -12px;" id="cus">Create new item</button></h4>
+ 
+<label class="addmenu" for="type">Vegetarian/Non-Vegetarian
+<select name="type" id="type">
+  <option value="ch" disabled selected>Choose Your Type</option>
+  <option value="Vegetarian">Vegetarian</option>
+  <option value="Non-Vegetarian">Non-Vegetarian</option>
+</select>
+</label>
+
+</div>
+
+
+</form>
+<form class="box2" method="post" style="display: none;">
+
+<input type="hidden" value="<%= JSON.stringify(user) %>" name="restaurant">
+	<div  id="box">
+	<h2> Add new custom food item </h2>
+<h4>Choose the inputs to add custom food item  <text >OR</text>  <button type="button" class="bttn" style="float:right ;" id="res">Add existing item</button></h4>
+	<label class="addmenu" for="type">Vegetarian/Non-Vegetarian
+<select name="type" id="type">
+  <option value="ch" disabled selected>Choose Your Type</option>
+  <option value="Vegetarian">Vegetarian</option>
+  <option value="Non-Vegetarian">Non-Vegetarian</option>
+</select>
+</label>
+
+<label class="addmenu" id="cusine1" for="cusine">Cusine
+<select name="cusine" id="cusine" >
+  <option value="ch" disabled selected>Choose Your Cusine</option>
+  <option value="snacks">Snacks</option>
+  <option value="northindian">North Indian</option>
+  <option value="southindian">South Indian</option>
+  <option value="east" disabled>east Indian</option>
+  
+</select>
+</label>
+
+<label class='addmenu' id='name'>Item name<input type='text' name="itemname" class='desc' placeholder='Enter the item name' required></label>
+
+
+<label class='addmenu' id='name'>Description<textarea  name="description" class='desc' placeholder="Enter the Description here" required></textarea>
+</label>
+
+<label class='addmenu' id='amount'>Amount<input type='text' name='amount' class='desc' placeholder='Enter the amount' required></label>
+
+
+<center><button type='submit'>Add Item</button></center>
+</div>
+</form>
+
+
+
+
+
+
+<script>
+
+$('#type').change(function(){
+	if ($('#items').length) {
+	$('#items').remove();
+
+	$('#cusine1').remove();
+	$('#desc').remove();
+	$('#amount').remove();
+
+	$('#sbutton').remove();
+	
+	
+	} 
+	var type= $('#type').val();
+	console.log(type);
+	// $('#cusine1').css("display","block");
+		$('#box').append("<label class='addmenu' id='cusine1' for='cusine' >Cusine<select name='cusine' id='cusine' >  <option value='ch' disabled selected>Choose Your Cusine</option>  <option value='snacks'>Snacks</option>  <option value='northindian'>North Indian</option>  <option value='southindian'>South Indian</option>  <option value='east' disabled>east Indian</option>  </select></label>");
+
+
+	$('#cusine').change(function(){
+	if ($('#items').length) {
+	$('#items').remove();
+	$('#desc').remove();
+	$('#amount').remove();
+	$('#sbutton').remove();
+	} 
+	var cusine= $('#cusine').val();
+	console.log("cus"+cusine);
+	// var menu12 = JSON.parse(document.getElementById('menu1').textContent);
+	if(cusine == "northindian"){
+	var test1 = '<%- JSON.stringify(menu) %>';
+	var test= JSON.parse(test1);
+}
+    else if(cusine == "snacks"){
+    var test1 = '<%- JSON.stringify(snacks) %>';
+	var test= JSON.parse(test1);
+    }
+    var dict={}
+    var selectHTML="<label class='addmenu' for='items' id='items'>Items<select name='itemname' id='item' autocomplete><option value='ch; disabled selected>Choose Your Item</option>";
+    for(i=0; i<test.length; i=i+1){
+
+    		console.log((test[i].type))
+    	if((test[i].type) == type ){
+    		console.log((test[i].type).slice(1, -1))
+    	dict[JSON.stringify(test[i].Name).slice(1, -1)]=JSON.stringify(test[i].Description).slice(1, -1)
+        selectHTML+= "<option value='"+JSON.stringify(test[i].Name).slice(1, -1)+"'>"+JSON.stringify(test[i].Name).slice(1, -1)+"</option>";
+    }
+        // console.log(JSON.stringify(test[i].Name));
+    }
+    selectHTML+="</select></label>"
+    // console.log(dict)
+
+    $('#box').append(selectHTML);
+  $('#item').change(function(){
+  	if ($('#desc').length) {
+	$('#desc').remove();
+	$('#amount').remove();
+
+	$('#sbutton').remove();
+	} 
+  	var deselement="<label class='addmenu'  id='desc'>Description";  	
+  	var x= $('#item').val();
+  	deselement+= "<input type='hidden' name='description' value='"+dict[x]+"'><div class='desc'>"+dict[x]+"</div></label>";
+  	  // $('#box').append(deselement);
+    	
+
+    var amount="<label class='addmenu' id='amount'>Amount<input type='text' name='amount' class='desc' placeholder='Enter the amount' required></label><center><button id='sbutton' type='submit'>Add Item</button></center>"
+    deselement+=amount;
+    $('#box').append(deselement);
+    	
+
+   }); 
+
+
+});
+});
+
+
+
+  $("#cus").click(function(){
+  $(".box2").css("display", "block");
+  $(".box").css("display", "none");
+  
+});
+  $("#res").click(function(){
+  $(".box2").css("display", "none");
+  $(".box").css("display", "block");
+  
+});
+
+
+</script>
+</body>
+</html>
